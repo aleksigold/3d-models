@@ -1,0 +1,15 @@
+[project]
+name = "asus-rog-xbox-ally-x"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "build123d",
+    "ocp-vscode>=3.3.4",
+    "ruff>=0.15.10",
+    "watchfiles>=1.1.1",
+]
+
+[tool.uv.sources]
+build123d = { git = "https://github.com/gumyr/build123d" }
