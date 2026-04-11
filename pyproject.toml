@@ -7,6 +7,8 @@ requires-python = ">=3.12"
 dependencies = [
     "build123d",
     "ocp-vscode>=3.3.4",
+    "pre-commit>=4.5.1",
+    "pre-commit-uv>=4.2.1",
     "ruff>=0.15.10",
     "watchfiles>=1.1.1",
 ]
