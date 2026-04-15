@@ -21,3 +21,10 @@ repos:
     rev: 0.2.2
     hooks:
       - id: checkmake
+  - repo: local
+    hooks:
+      - id: lint-viewer
+        name: lint-viewer
+        entry: bash -c 'cd viewer && npm run lint'
+        language: system
+        pass_filenames: false

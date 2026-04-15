@@ -1,0 +1,35 @@
+{
+  "name": "viewer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "lint": "prettier --check .",
+    "lint:fix": "npm run lint -- --write"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.1.1",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@types/three": "^0.183.1",
+    "@vitejs/plugin-react": "^6.0.1",
+    "antd": "^6.3.5",
+    "prettier": "^3.8.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "three": "^0.183.2",
+    "typescript": "^6.0.2",
+    "vite": "^8.0.8",
+    "vite-plugin-static-copy": "^4.0.1"
+  }
+}
